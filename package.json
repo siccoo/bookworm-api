@@ -1,0 +1,18 @@
+{
+  "name": "Bookworm-API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Chilaka Michael Obinna",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- src/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
